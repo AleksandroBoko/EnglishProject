@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EnglishProject.DataAccess
 {
-    class EnglishPrase
+    public class EnglishPrase
     {
+        public int Id { get; set; }
+        public string Phrase { get; set; }
     }
 }
